@@ -51,4 +51,11 @@ The emission lines around 5000 angstroms and 6500 angstroms are created by ioniz
 
 The panel on the right shows what is called a BPT diagram. Each data point represents an emission line ratio from a points on the galaxy on the left panel. The dashed line separates galaxies whose emission lines are purely from star formation (young massive stars; below the line) and galaxies whose emission lines are from AGN (above the line). Galaxies between the dashed line and the solid line have contributions from star formation and AGN. Galaxies above the solid line have emission lines that are dominated by AGN activity. The dashed-dot line separates Seyfert galaxies (strong AGN) and LINERS (weak AGN). For our work, we will use galaxies whose emission line ratios are above the dashed line. The middle panel shows the image of the galaxy with the BPT classifications overlaid. The region ionized by an AGN is centrally concentrated and the outlying regions are dominated by star formation. 
 
-We perform this analysis for each galaxy in our sample; however, only for the centers of the galaxies since that is where an AGN would be found. In our pair sample, we find 
+I perform this analysis for each galaxy in our sample; however, only for the centers of the galaxies since that is where an AGN would be found. I find 105 AGN in the pair sample and 872 AGN in the control sample. 
+
+## AGN Volume Density
+
+Now answering our question seems simple. If the paired galaxies have a higher fraction of AGN than the control galaxies, than we can say that galaxy merging can enhance the rate of AGN activity? The issue is that AGN duty cycle in MaNGA is mass dependent and peaks around log(M/Msun) = 10.5 and the pair fraction in MaNGA prefers higher mass galaxies. Further, the MaNGA sample itself has a flat mass distribution so high mass galaxies are being oversampled and low mass galaxies are being undersampled. To resolve this, I first calculate the mass dependent AGN fraction of the control galaxies. I then use the AGN fraction to calculate the expected volume density of AGN in pairs assuming there is only stochastic fueling of AGN. Then I calculate the observed volume density of our AGN. If the observed volume density is higher than the expected stochastic volume density, we can assume that the excess volume density is from merger induced fueling.
+
+This work has been published in [Steffen et al. 2023](https://ui.adsabs.harvard.edu/abs/2023ApJ...942..107S/abstract).
+
