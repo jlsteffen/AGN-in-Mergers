@@ -4,15 +4,15 @@
 
 ### Merging galaxies
 
-Galaxies are large gravitationally bound systems of stars, gas, dust, and dark matter. Contrary to first impressions, these objects are not stationary. Galaxies also tend not to exist in isolation, but in clusters of galaxies. Within these clusters, galaxies frequently interact and merge like the example below. 
-
 <img align="left" width="500" height="350" src="https://github.com/jlsteffen/AGN-in-Mergers/blob/main/images/merger_ex.jpg"> 
+
+Galaxies are large gravitationally bound systems of stars, gas, dust, and dark matter. Contrary to first impressions, these objects are not stationary. Galaxies also tend not to exist in isolation, but in clusters of galaxies. Within these clusters, galaxies frequently interact and merge like the example below. 
 
 Merging galaxies are not only beautiful, but they are an important part of galaxy evolution. Most massive galaxies, including our galaxy, the Milky Way, are a product of several past galaxy mergers. In fact, the Milky Way will collide with the Andromeda galaxies in about 4 billion years. 
 
 ### Active Galactic Nuclei (AGN)
 
-<img align="left" width="400" height="350" src="https://github.com/jlsteffen/AGN-in-Mergers/blob/main/images/AGN_NASA.jpg"> 
+<img align="left" width="500" height="350" src="https://github.com/jlsteffen/AGN-in-Mergers/blob/main/images/AGN_NASA.jpg"> 
 
 When large amounts of material fall onto a supermassive black hole, the material does not fall directly into black hole. Imagine water draining from a sink. The water slowly drains through a whirlpool which forms around the opening of the sink. Material falls through a black hole in a fundamentally similar way, though the extreme scales involved create some differences. The gases and dust in the whirlpool, which we call the accretion disk, have extreme velocities and the friction between the gases cause intense amounts of heat. The heated accretion disk then produces large amounts of high energy photons. The black hole, an entity so massive that light cannot escape it, ironically becomes one of the brightest objects in the universe (or at least the accretion disk become the brightest object). We refer to these objects as active galactic nuclei (AGN). 
 
