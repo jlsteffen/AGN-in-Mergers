@@ -45,7 +45,7 @@ The next step is to determine which galaxies are hosting an active galactic nucl
 
 ![Figure 1](https://github.com/jlsteffen/AGN-in-Mergers/blob/main/images/7959-12704.png)
 
-The emission lines at xxx nm are created by ionized gases. The typical sources of ionization in a galaxy is through star formation (i.e. young massive stars) or AGN. An AGN will produce a strong power-law spectrum which extend far into the far-UV in comparison to the spectrum of OB stars. As a consequence, AGN will produce stronger low-ionization forbidden lines relative to the H alpha line in comparison to OB stars. Thus, the ionization sources for these emission lines can be revealed by studying the ratios between forbidden lines and the Balmer series. 
+The emission lines around 5000 angstroms and 6500 angstroms are created by ionized gases. The typical sources of ionization in a galaxy is through star formation (i.e. young massive stars) or AGN. An AGN will produce a strong power-law spectrum which extend far into the far-UV in comparison to the spectrum of OB stars. As a consequence, AGN will produce stronger low-ionization forbidden lines relative to the H alpha line in comparison to OB stars. Thus, the ionization sources for these emission lines can be revealed by studying the ratios between forbidden lines and the Balmer series. 
 
 ![Figure 2](https://github.com/jlsteffen/AGN-in-Mergers/blob/main/images/8341-12704.png)
 
