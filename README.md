@@ -6,9 +6,11 @@
 
 ### Merging galaxies
 
-Galaxies are large gravitationally bound systems of stars, gas, dust, and dark matter. Contrary to first impressions, these objects are not stationary. Galaxies also tend not to exist in isolation, but in clusters of galaxies. Within these clusters, galaxies frequently interact and merge like the example below. 
+Galaxies are large gravitationally bound systems of stars, gas, dust, and dark matter. Contrary to first impressions, these objects are not stationary. Galaxies also tend not to exist in isolation, but in clusters of galaxies. Within these clusters, galaxies frequently interact and merge like the example on the left. 
 
 Merging galaxies are not only beautiful, but they are an important part of galaxy evolution. Most massive galaxies, including our galaxy, the Milky Way, are a product of several past galaxy mergers. In fact, the Milky Way will collide with the Andromeda galaxies in about 4 billion years. 
+
+
 
 ### Active Galactic Nuclei (AGN)
 
