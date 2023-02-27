@@ -10,7 +10,8 @@ Galaxies are large gravitationally bound systems of stars, gas, dust, and dark m
 
 Merging galaxies are not only beautiful, but they are an important part of galaxy evolution. Most massive galaxies, including our galaxy, the Milky Way, are a product of several past galaxy mergers. In fact, the Milky Way will collide with the Andromeda galaxies in about 4 billion years. 
 
-
+#
+#
 
 ### Active Galactic Nuclei (AGN)
 
