@@ -2,9 +2,9 @@
 
 ## Background
 
-### Merging galaxies
-
 <img align="left" width="500" height="350" src="https://github.com/jlsteffen/AGN-in-Mergers/blob/main/images/merger_ex.jpg"> 
+
+### Merging galaxies
 
 Galaxies are large gravitationally bound systems of stars, gas, dust, and dark matter. Contrary to first impressions, these objects are not stationary. Galaxies also tend not to exist in isolation, but in clusters of galaxies. Within these clusters, galaxies frequently interact and merge like the example below. 
 
