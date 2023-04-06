@@ -55,7 +55,33 @@ I perform this analysis for each galaxy in our sample; however, only for the cen
 
 ## AGN Volume Density
 
-Now answering our question seems simple. If the paired galaxies have a higher fraction of AGN than the control galaxies, than we can say that galaxy merging can enhance the rate of AGN activity? The issue is that AGN duty cycle in MaNGA is mass dependent and peaks around log(M/Msun) = 10.5 and the pair fraction in MaNGA prefers higher mass galaxies. Further, the MaNGA sample itself has a flat mass distribution so high mass galaxies are being oversampled and low mass galaxies are being undersampled. To resolve this, I first calculate the mass dependent AGN fraction of the control galaxies. I then use the AGN fraction to calculate the expected volume density of AGN in pairs assuming there is only stochastic fueling of AGN. Then I calculate the observed volume density of our AGN. If the observed volume density is higher than the expected stochastic volume density, we can assume that the excess volume density is from merger induced fueling.
+Now answering our question seems simple. If the paired galaxies have a higher fraction of AGN than the control galaxies, then we can say that galaxy merging can enhance the rate of AGN activity? The issue is that AGN duty cycle in MaNGA is mass dependent and peaks around log(M/Msun) = 10.5 and the pair fraction in MaNGA prefers higher mass galaxies. Further, the MaNGA sample itself has a flat mass distribution so high mass galaxies are being oversampled and low mass galaxies are being undersampled. 
+
+To resolve this, I will model the mass dependent AGN fraction in the control galaxies and use this model to estimate expected volume density of AGN in the pair sample assuming stochastic fueling alone. If the measured volume density of AGN is higher than the expected stochastic volume density, we can assume that the excess volume density is from merger induced fueling.
+
+Below is the distribution of stellar masses for the whole control sample (grey) and the control sample hosting AGN (blue). The AGN fraction is simply the AGN sample divided by the whole sample, shown in the black outlined diamonds. 
+
+![Figure 3](https://github.com/jlsteffen/AGN-in-Mergers/blob/main/images/20agn_hist.png)
+
+I then model the mass dependent AGN fraction with a Normal distribution in the below formula. 
+
+![Figure 4](https://github.com/jlsteffen/AGN-in-Mergers/blob/main/images/Equation7.png)
+
+Here, M is the stellar mass of a galaxy, z is the galaxy's redshift, and f_0, sigma, and b are amplitude, variance, and mean of the Normal distribution that I fit for. I fit these values with a minimization routine and find that f_0 = 0.12, sigma = 0.44, and b = 10.56. The AGN fraction here will have no significant evolution in redshift within the range included in the MaNGA sample, but I include it here for completeness since we know that AGN fraction is redshift dependent across broader redshift ranges. 
+
+This model represents the AGN induced through the stochastic, or random fueling of the AGN. The AGN in the paired galaxies will likely still be subject to the stochastic means of AGN fueling. If the merger process does not influence AGN activity, we should be able to predict the volume density of AGN in the pair sample using the model above. If we find that the observed volume density of AGN is higher than what is predicted by stochastic fueling, we may assume that some of the observed AGN are being induced by the galaxy merger. 
+
+I break the AGN in pairs sample into three sub-groups; offset AGN in which one galaxy hosts an AGN, dual AGN in which both galaxies host an AGN, and the combined offset+dual AGN sample. Below I show the equations for the volume densities for the dual, offset, and offset+dual AGN samples respectively. W_j represents the volume weights from the MaNGA sample and f^t and f^c are the stochastic AGN probabilities for the MaNGA target galaxy and its companion respectively. These equations may initially look intimidating, they are similar in form to the probability of flipping two coins. The first equation is the probability of getting two heads up, the second equation is the probability of getting a single heads up in either coin, and the last equation is the probability of getting any heads up. 
+
+![Figure 5](https://github.com/jlsteffen/AGN-in-Mergers/blob/main/images/Equation1012)
+
+Below I plot the AGN volume density for my pair sample as a function of the pair separation. The grey scatter points are the volume weights for individual paired galaxy while the blue scatter points are the volume weights for paired galaxies hosting an AGN. The grey diamonds represent the expected volume density while the black diamonds show the measured volume density. Regions where the measured volume density is higher than what is expected is highlighted in green while the inverse is highlighted in red. It is apparent that there are excess AGN in the dual and offset+dual subsamples and that the excess is separation dependent. 
+
+![Figure 6](https://github.com/jlsteffen/AGN-in-Mergers/blob/main/images/21vol_den_sep.png)
+
+![Figure 7](https://github.com/jlsteffen/AGN-in-Mergers/blob/main/images/21vol_den_sep_model.png.png)
+
+![Figure 8](https://github.com/jlsteffen/AGN-in-Mergers/blob/main/images/21vol_den_sep_fit.png.png)
 
 This work has been published in [Steffen et al. 2023](https://ui.adsabs.harvard.edu/abs/2023ApJ...942..107S/abstract).
 
