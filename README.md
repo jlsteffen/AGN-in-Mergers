@@ -73,15 +73,15 @@ This model represents the AGN induced through the stochastic, or random fueling 
 
 I break the AGN in pairs sample into three sub-groups; offset AGN in which one galaxy hosts an AGN, dual AGN in which both galaxies host an AGN, and the combined offset+dual AGN sample. Below I show the equations for the volume densities for the dual, offset, and offset+dual AGN samples respectively. W_j represents the volume weights from the MaNGA sample and f^t and f^c are the stochastic AGN probabilities for the MaNGA target galaxy and its companion respectively. These equations may initially look intimidating, they are similar in form to the probability of flipping two coins. The first equation is the probability of getting two heads up, the second equation is the probability of getting a single heads up in either coin, and the last equation is the probability of getting any heads up. 
 
-![Figure 5](https://github.com/jlsteffen/AGN-in-Mergers/blob/main/images/Equation1012)
+![Figure 5](https://github.com/jlsteffen/AGN-in-Mergers/blob/main/images/Equation1012.png)
 
 Below I plot the AGN volume density for my pair sample as a function of the pair separation. The grey scatter points are the volume weights for individual paired galaxy while the blue scatter points are the volume weights for paired galaxies hosting an AGN. The grey diamonds represent the expected volume density while the black diamonds show the measured volume density. Regions where the measured volume density is higher than what is expected is highlighted in green while the inverse is highlighted in red. It is apparent that there are excess AGN in the dual and offset+dual subsamples and that the excess is separation dependent. 
 
 ![Figure 6](https://github.com/jlsteffen/AGN-in-Mergers/blob/main/images/21vol_den_sep.png)
 
-![Figure 7](https://github.com/jlsteffen/AGN-in-Mergers/blob/main/images/21vol_den_sep_model.png.png)
+![Figure 7](https://github.com/jlsteffen/AGN-in-Mergers/blob/main/images/21vol_den_sep_model.png)
 
-![Figure 8](https://github.com/jlsteffen/AGN-in-Mergers/blob/main/images/21vol_den_sep_fit.png.png)
+![Figure 8](https://github.com/jlsteffen/AGN-in-Mergers/blob/main/images/21vol_den_sep_fit.png)
 
 This work has been published in [Steffen et al. 2023](https://ui.adsabs.harvard.edu/abs/2023ApJ...942..107S/abstract).
 
