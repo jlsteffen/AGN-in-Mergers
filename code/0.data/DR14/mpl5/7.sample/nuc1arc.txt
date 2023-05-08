@@ -1,0 +1,9 @@
+FORPRINT: Tue Nov 21 09:27:50 2017
+Main Sampl  2618
+   Unclass     8
+        RG  1182
+        SF  1038
+      Comp   262
+     LINER    71
+      Sey2    43
+      Sey1    14

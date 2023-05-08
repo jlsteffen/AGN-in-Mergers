@@ -1,0 +1,53 @@
+SpecObj Subsamples 
+MaNGA Target Catalog size = 10130
+MaNGA Primary+ Sample  = 9704
+MaNGA Primary+ Sample + Lum Func = 8585
+Spectrocopically Confirmed Catalog Size = 15592
+Valid spectroscopic objects (Primary+ + Lum Func) = 13295
+Good Objects = 9393
+BLAGN Objects = 77
+Borderline Objects = 163
+Stellar Objects = 1217
+z_off Objects = 368
+QSO Objects = 20
+Low SNR Objects = 1792
+Other Objects = 265
+
+AGN in Whole Sample 
+Ambiguous in Pairs = 18
+Retired in Pairs = 5299
+SF in Pairs = 3108
+COMP in Pairs = 713
+LINER in Pairs = 97
+Seyfert in Pairs = 158
+BLAGN in Pairs = 77
+
+Pair Candidate Sets = 751
+Pair Candidate Objects = 1654.0
+Confirmed Pair Sets = 428
+Confirmed Pair Objects = 896.0
+Pairs = 391
+Triplets = 35
+Quadruplets = 1
+Quintuplets = 1
+
+Ambiguous in Pairs = 6
+Retired in Pairs = 530
+SF in Pairs = 141
+COMP in Pairs = 62
+LINER in Pairs = 18
+Seyfert in Pairs = 17
+BLAGN in Pairs = 8
+
+Controls = 7811.0
+Ambiguous Controls = 0.0
+Retired Controls = 4121.0
+SF Controls = 2815.0
+Comp Controls = 613.0
+LINER Controls = 70.0
+Seyfert Controls = 126.0
+BLAGN Controls = 63.0
+
+Single AGN = 55.0
+Dual AGN = 25.0
+Single+Dual AGN = 80.0
